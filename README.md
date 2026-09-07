@@ -1,34 +1,34 @@
-# Ali Al-Jonaid
+<picture>
+  <source media="(max-width: 600px)" srcset="https://raw.githubusercontent.com/AliAlJonaid/AliAlJonaid/main/assets/header-mobile.svg" />
+  <img src="https://raw.githubusercontent.com/AliAlJonaid/AliAlJonaid/main/assets/header.svg" width="100%" alt="Ali Al-Jonaid — Making the pieces work together. Computer Science at the University of Calgary. Calgary, Canada. Summer 2027 internships." />
+</picture>
 
-Computer Science student at the University of Calgary focused on **cloud infrastructure, IT operations, and reliable automation**.
+I'm **Ali Al-Jonaid**, a second-year Computer Science student at the **University of Calgary**. I focus on **systems integration and AI-assisted automation**: connecting tools, questioning their outputs, and testing failure cases.
 
-I build systems that are documented, observable, and designed with explicit safety boundaries. I am preparing for Summer 2027 co-op opportunities in cloud infrastructure, IT operations, network operations, QA/test automation, and adjacent platform roles.
+**Seeking Summer 2027 internships in automation, cloud infrastructure, or IT operations across Canada.** Based in Calgary; open to relocation. [LinkedIn](https://www.linkedin.com/in/ali-al-jonaid/)
 
 ## Selected work
 
 ### [AX Relay](https://github.com/AliAlJonaid/ax-relay)
 
-Accessibility-aware macOS automation runtime. It identifies interface elements through the macOS Accessibility tree rather than relying on brittle screen coordinates, with provider separation and verification/recovery boundaries.
+**The model chooses a control. The operating system supplies its position.**
 
-**My role:** I defined the architecture, interaction model, operating constraints, test scenarios, and iteration plan. Implementation was AI-assisted; I reviewed and validated behavior against the project’s acceptance checks. The repository documents the tools used, trade-offs, and known limitations.
+A Python tool that gives a model numbered macOS controls to choose from. It can switch between configured model providers when one is unavailable and uses the task's starting screen state to help check the result.
+
+**My contribution:** interaction design, provider boundaries, failure analysis, and the checks used to accept results.
+
+[Follow one interaction](https://github.com/AliAlJonaid/ax-relay/blob/main/docs/walkthrough.md) · [Inspect the verification tests](https://github.com/AliAlJonaid/ax-relay/blob/main/docs/verification.md)
 
 ### [Market Decision Ledger](https://github.com/AliAlJonaid/market-decision-ledger)
 
-A **paper-only**, auditable market-research and decision-governance reference implementation. It uses evidence gates, policy constraints, deterministic accounting, synthetic data, and explicit no-live-trading boundaries.
+**An interrupted write should have a defined recovery path.**
 
-**My role:** I defined the governance model, safety rules, decision protocol, and acceptance criteria. Implementation was AI-assisted; I reviewed and validated the mechanical constraints. This is a systems-design project, not an investment product or financial advice.
+A local Python ledger for simulated transactions, with purchase rules and a recovery journal. Tests interrupt writes, then check that recovery restores the deposit without recording it twice.
 
-## How I work
+**My contribution:** project scope, review rules, evidence requirements, and validation. All examples use synthetic data.
 
-- Prefer observable systems: logs, decision records, verification, and recovery paths.
-- Treat safety boundaries, constraints, and failure modes as product requirements.
-- Publish architecture, setup instructions, runbooks, verification steps, and limitations—never secrets or personal data.
-- Use AI tools as implementation partners. When they contribute to a project, I disclose my role, the assistance used, and the validation work rather than presenting assisted code as solely hand-written.
+[Run the five-minute example](https://github.com/AliAlJonaid/market-decision-ledger/blob/main/docs/walkthrough.md) · [Read the recovery tests](https://github.com/AliAlJonaid/market-decision-ledger/blob/main/tests/test_ledger.py)
 
-## Current direction
+## Development approach
 
-- Building reproducible cloud and networking evidence across AWS, Azure, and GCP.
-- Turning hands-on work into clear runbooks, troubleshooting notes, and public case studies.
-- Interested in Cloud Infrastructure, IT Operations, Network Operations, and Automation.
-
-[LinkedIn](https://www.linkedin.com/in/ali-al-jonaid/) · Calgary, Alberta · English & Arabic
+I define constraints and acceptance criteria, direct AI-assisted implementation, and review the resulting behaviour. When it falls short, I challenge the output and direct revisions. Each project documents my role and the assistance used: [AX Relay](https://github.com/AliAlJonaid/ax-relay/blob/main/docs/ai-collaboration.md) · [Market Decision Ledger](https://github.com/AliAlJonaid/market-decision-ledger/blob/main/docs/ai-collaboration.md).
