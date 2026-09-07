@@ -3,9 +3,9 @@
   <img src="https://raw.githubusercontent.com/AliAlJonaid/AliAlJonaid/main/assets/header.svg?v=2" width="100%" alt="Ali Al-Jonaid — Making the pieces work together. Computer Science at the University of Calgary." />
 </picture>
 
-I'm **Ali Al-Jonaid**, a second-year Computer Science student at the **University of Calgary**. I focus on **Python automation and systems integration**. I'm interested in how we tell whether an automated task succeeded, and what happens when a write stops halfway through.
+I'm **Ali Al-Jonaid**, a Computer Science student at the **University of Calgary**. I focus on **Python automation and systems integration**. I'm interested in how we tell whether an automated task succeeded, and what happens when a write stops halfway through.
 
-**Seeking Summer 2027 internships across Canada** in automation, cloud infrastructure, or IT operations. Based in Calgary; open to relocation. [LinkedIn](https://www.linkedin.com/in/ali-al-jonaid/)
+**Interested in internship opportunities across Canada** in automation, cloud infrastructure, or IT operations. Based in Calgary; open to relocation. [LinkedIn](https://www.linkedin.com/in/ali-al-jonaid/)
 
 ## Selected work
 
@@ -31,4 +31,4 @@ A local Python ledger for simulated transactions, with purchase rules and a reco
 
 ## How I work
 
-I direct AI-assisted implementation around explicit constraints and acceptance criteria, review the resulting behaviour, and direct revisions when it falls short. The projects make those checks inspectable through provider-failure tests, action guards, and interrupted-write recovery. Each project documents my contribution and the assistance used: [AX Relay](https://github.com/AliAlJonaid/ax-relay/blob/main/docs/ai-collaboration.md) · [Market Decision Ledger](https://github.com/AliAlJonaid/market-decision-ledger/blob/main/docs/ai-collaboration.md).
+I select models and tools for the task, set constraints and acceptance criteria, and direct AI-assisted implementation. I review the resulting behaviour and direct revisions when it falls short. The projects make those checks inspectable through provider-failure tests, action guards, and interrupted-write recovery. Each project documents my contribution and the assistance used: [AX Relay](https://github.com/AliAlJonaid/ax-relay/blob/main/docs/ai-collaboration.md) · [Market Decision Ledger](https://github.com/AliAlJonaid/market-decision-ledger/blob/main/docs/ai-collaboration.md).
